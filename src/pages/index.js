@@ -1,10 +1,16 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <h1>Home Page</h1>
+      
+      <Layout pageTitle="Home Page">
+      <p>Home Page</p>
+      <StaticImage alt="dog"
+                  src=""></StaticImage>
+      </Layout>
     </main>
   );
 };
